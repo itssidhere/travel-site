@@ -23,5 +23,13 @@
             margin-bottom:0;
             display:inline-block;
         }
+        &--large-mr{
+            @mixin atSmall{
+                margin-right:1.8rem;
+            }
+        }
+    }
+    &--blue{
+        color:$mainBlue;
     }
 }
